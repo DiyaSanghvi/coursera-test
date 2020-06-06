@@ -1,0 +1,104 @@
+* {
+	box-sizing:border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+@media(min-width: 992px)
+{
+.col-lg-4{
+	float: left;
+	width:30%;
+	margin:15px;
+}
+}
+@media(min-width: 768px ) and (max-width: 991px)
+{
+.col-md-6{
+	float: left;
+	width:48%;
+	margin:5px;
+}
+.col-md-12{
+	float: left;
+	width:97%;
+	margin:7px;
+}
+}
+@media(max-width: 767px)
+{
+.col-sm-12{
+	float:left;
+	width:96%;
+	margin:2%;
+}
+}
+h1{
+	text-align:center;
+}
+div
+{
+	display:block;
+}
+section
+{
+	padding:10px;
+}
+.division
+{
+	text-align:center;
+	background-color: grey;
+	border: 2px solid black;
+	overflow: auto;
+}
+
+#first
+{
+	background-color: red;
+	width : 100px;
+
+	margin-top:0;
+	margin-right:0;
+	margin-left:auto;
+	margin-bottom:0;
+	border-left : 2px solid black;
+	border-bottom: 2px solid black;
+	border-right:1px solid black;
+	border-top: 1px solid black;
+	font-size:125%;
+	text-align:center;
+	padding: 5px;
+}
+#second
+{
+
+	background-color:pink;
+	width : 100px;
+	margin-top:0;
+	margin-right:0;
+	margin-left:auto;
+	margin-bottom:0;
+	border-left : 2px solid black;
+	border-bottom: 2px solid black;
+	border-right:1px solid black;
+	border-top: 1px solid black;
+	text-align:center;
+	font-size:125%;
+	padding: 5px;
+
+}
+#third
+{
+	background-color:yellow;
+	width : 100px;
+	margin-top:0;
+	margin-right:0;
+	margin-left:auto;
+	margin-bottom:0;
+	border-left : 2px solid black;
+	border-bottom: 2px solid black;
+	border-right:1px solid black;
+	border-top: 1px solid black;
+	text-align:center;
+	font-size:125%;
+	padding: 5px;
+
+}
